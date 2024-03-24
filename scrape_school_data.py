@@ -1,6 +1,6 @@
 import requests
 import time
-PHPSESSID = "s3fk4mclrkf63lkg9kj2if7f8b"
+PHPSESSID = "!!!!!PHP SESSION HERE!!!!!"
 schoolCount = 50000
 headers = {
     "Cookie":f"hideCookieConsent=true; PHPSESSID={PHPSESSID}; GCLB=CLSUrJDjkd24NRAD",
@@ -8,7 +8,7 @@ headers = {
     "Content-Type":"application/json",
 }
 with open("schools_info.txt", "a") as f:
-    for i in range(2291,schoolCount):
+    for i in range(1,schoolCount):
         try:
             url = f"https://www.drfrost.org/api/school?sid={i}"
             r = requests.get(url=url,headers=headers)
