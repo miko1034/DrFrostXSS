@@ -4,10 +4,10 @@ import requests
 
 PHPSESSID = "PHPSESSID HERE"
 
-firstname = "Mikolaj"
-surname = 'Grzebyta'
+firstname = "**NAME**"
+surname = '**SURNAME**'
 password = "*PASSWORD HERE*"
-email = 'mikolajgrzebyta20@students.harlington.org'
+email = '**EMAILHERE**'
 
 url = "https://www.drfrost.org/api/user/other"
 
