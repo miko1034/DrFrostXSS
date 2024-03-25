@@ -2,11 +2,11 @@ import requests
 
 #<script>let i=1; while(i == 1){alert(1)};</script>
 
-PHPSESSID = "bqia6i1c79oj39hfrp49lmj64c"
+PHPSESSID = "PHPSESSID HERE"
 
 firstname = "Mikolaj"
 surname = 'Grzebyta'
-password = "NrM&g8E7"
+password = "*PASSWORD HERE*"
 email = 'mikolajgrzebyta20@students.harlington.org'
 
 url = "https://www.drfrost.org/api/user/other"
